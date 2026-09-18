@@ -1,0 +1,21 @@
+Invisible Rhythms — GitHub Pages 白屏修正版
+
+适用网址：https://ericaan0208.github.io/Invisible-Rhythms/
+
+本包已经构建，无需在 GitHub 上安装依赖或再次编译。
+
+1. 解压 ZIP。
+2. 打开 GitHub 的 Invisible-Rhythms 仓库，选择 Add file → Upload files。
+3. 上传解压后的全部内容到仓库根目录。index.html 应与现有 package.json 同级，不要再套一层文件夹。
+4. 使用本包的 index.html 覆盖原来的 index.html，同时上传 assets、cursors、favicon.svg、public-content-manifest.json 和 .nojekyll。
+5. 点击 Commit changes。保留当前能访问该网址的 Pages 分支设置，等待发布完成后刷新页面。
+
+Mac Finder 可按 Command + Shift + . 显示 .nojekyll 等隐藏文件。
+原来的 src、tests 等源码文件可以保留，不影响本包运行。
+请勿只上传 ZIP 文件本身。
+
+修复内容：入口使用构建后的 JavaScript/CSS，并把资源路径设为 /Invisible-Rhythms/。不会修改科学计算、内容、手动观察窗口或来源映射。
+未来从源码更新时，应重新构建：pnpm build --base=/Invisible-Rhythms/
+再把生成的 dist 目录中的内容上传到相同位置。
+
+本包只在本地生成和测试，没有代你修改 GitHub 仓库或执行公开部署。
