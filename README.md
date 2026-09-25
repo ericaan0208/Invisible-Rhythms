@@ -2,17 +2,6 @@
 
 An interactive introduction to EEG, sleep spindles and infraslow modulation of sigma power. All plotted signals are deterministic **simulated teaching data**, not participant recordings or a model fitted to a participant.
 
-## Publish with GitHub Pages
-
-This repository includes the current production website in `docs/`; no local installation is needed to publish it.
-
-1. Upload the **contents of this folder** to the root of a GitHub repository. `README.md`, `package.json`, `src/` and `docs/` must be at the repository root.
-2. In **Settings → Pages**, choose **Deploy from a branch**.
-3. Select your default branch (usually `main`) and the **/docs** folder, then Save.
-4. Open the published URL shown by GitHub after deployment completes.
-
-Upload the extracted files and folders, not the ZIP itself. Keep the directory structure. GitHub Pages configuration: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-
 ## Develop and rebuild
 
 Use Node.js 22.12 or later and npm:
@@ -45,8 +34,3 @@ The application has no backend, accounts, analytics or external font/image servi
 
 No participant data, private research files, paper PDFs, font binaries, developer environment files or local path records are included in this release.
 
-## License decision
-
-A project-wide open-source license has not yet been selected. Publishing this repository makes its source visible; it does not by itself grant an open-source reuse license. Before describing the project as open source, add a license you are authorized to grant. MIT is a permissive option that allows commercial use and modifications while requiring preservation of copyright and license notices. Third-party publications, fonts and tooling retain their own licenses.
-
-GitHub licensing guidance: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
