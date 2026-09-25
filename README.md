@@ -13,7 +13,6 @@ npm test
 npm run build
 ```
 
-The build replaces `docs/`. Commit the rebuilt `docs/` when changing the source; uploading source changes alone does not rebuild the published site in this configuration. `private: true` only prevents accidental npm publication; it does not make a GitHub repository private.
 
 ## Features
 
